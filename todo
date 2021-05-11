@@ -1,0 +1,4 @@
+1. Сделать чтобы в devtools отображался ts
+2. webpack-dev-server вместо lite-server
+3. Сделать минифицированный бандл
+4. Сделать typescript компиляцию частью webpack-сборки
