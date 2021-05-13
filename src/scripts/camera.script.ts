@@ -3,7 +3,7 @@ import { CameraConfig } from "../engine/models/camera";
 import { Script } from "../engine/script";
 
 export class CameraScript extends Script {
-    constructor(private config?: CameraConfig) {
+    constructor(public config?: CameraConfig) {
         super();
 
         if (!this.config) {
